@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontakt & Reservierung bei PICO Tapas Bar in Berlin Kreuzberg. Tisch reservieren oder Catering anfragen.">
+  <title>Kontakt | PICO Tapas Bar Berlin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        PICO <span>Tapas</span>
+        <span class="logo-sub">Bar · Berlin</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="menu.html">Menü</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="about.html">Über uns</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html" class="active">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <h1>Kontakt</h1>
+    <p>Wir freuen uns auf Ihre Nachricht</p>
+  </div>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>So erreichen Sie uns</h3>
+          <p><strong>Adresse</strong><br>
+          Oranienstraße 42<br>
+          10999 Berlin-Kreuzberg</p>
+
+          <p><strong>Telefon</strong><br>
+          +49 30 1234 5678</p>
+
+          <p><strong>E-Mail</strong><br>
+          hola@pico-tapas-bar.de</p>
+
+          <h3 style="margin-top: 2rem;">Öffnungszeiten</h3>
+          <table class="hours-table">
+            <tr>
+              <td>Montag</td>
+              <td>Ruhetag</td>
+            </tr>
+            <tr>
+              <td>Dienstag – Donnerstag</td>
+              <td>17:00 – 23:00</td>
+            </tr>
+            <tr>
+              <td>Freitag – Samstag</td>
+              <td>17:00 – 00:00</td>
+            </tr>
+            <tr>
+              <td>Sonntag</td>
+              <td>16:00 – 22:00</td>
+            </tr>
+          </table>
+
+          <p style="margin-top: 1.5rem; font-style: italic; color: var(--text-light);">
+            Für Gruppen ab 8 Personen und Catering-Anfragen empfehlen wir eine vorherige Reservierung.
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="margin-bottom: 1.2rem; color: var(--terracotta);">Nachricht senden</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Ihr Name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-Mail *</label>
+              <input type="email" id="email" name="email" required placeholder="ihre@email.de">
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="+49 ...">
+            </div>
+            <div class="form-group">
+              <label for="subject">Betreff</label>
+              <select id="subject" name="subject">
+                <option value="reservierung">Tischreservierung</option>
+                <option value="catering">Catering-Anfrage</option>
+                <option value="allgemein">Allgemeine Anfrage</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Nachricht *</label>
+              <textarea id="message" name="message" required placeholder="Wann möchten Sie kommen? Wie viele Personen? Besondere Wünsche?"></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Nachricht absenden</button>
+          </form>
+          <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-light);">
+            * Pflichtfelder. Dies ist eine Demo-Form – in der Live-Version wird die Nachricht an uns gesendet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>PICO Tapas Bar</h4>
+        <p>Authentische spanische Küche<br>mitten in Berlin Kreuzberg.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Adresse</h4>
+        <p>Oranienstraße 42<br>10999 Berlin-Kreuzberg</p>
+        <p>Tel: +49 30 1234 5678</p>
+      </div>
+      <div class="footer-col">
+        <h4>Öffnungszeiten</h4>
+        <p>Di – So: 17:00 – 23:00<br>Montag: Ruhetag</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <p>
+          <a href="menu.html">Menü</a><br>
+          <a href="catering.html">Catering</a><br>
+          <a href="about.html">Über uns</a><br>
+          <a href="gallery.html">Galerie</a><br>
+          <a href="contact.html">Kontakt</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 PICO Tapas Bar · Berlin Kreuzberg · Mit Liebe gemacht
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
